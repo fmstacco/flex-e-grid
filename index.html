@@ -14,10 +14,23 @@
 </head>
 <body>
     <header class="cabecalho">
-        <button class="cabecalho__menu"><i></i></button>
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
         <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
-        <button class="cabecalho__notificacao"><i></i></button>
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
     </header> 
+
+    <!-- nav.menu-lateral>img.menulateral__logo+a[href="#"].menu-lateral__link*6
+    Para criar de maneira mais rápida--> 
+
+    <nav class="menu-lateral">
+        <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="menulateral__logo">
+        <a href="#" class="menu-lateral__link menu-lateral__inicios">Inícios</a>
+        <a href="#" class="menu-lateral__link menu-lateral__videos">Vídeos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__picos">Picos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__integrantes">Integrantes</a>
+        <a href="#" class="menu-lateral__link menu-lateral__camisas">Camisas</a>
+        <a href="#" class="menu-lateral__link menu-lateral__pinturas">Pinturas</a>
+    </nav>   
 
 
 
