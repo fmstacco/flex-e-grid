@@ -58,6 +58,10 @@ body{
     align-items: center;
 }
 
+.menu-lateral__link {
+    
+}
+
 .menu-lateral__link::before {
     content: "\e900";
     width: 24px;
